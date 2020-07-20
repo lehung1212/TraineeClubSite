@@ -1,0 +1,83 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.5;
+  color: #555;
+}
+strong {
+  font-family: 'Roboto Slab', serif;
+}
+h1, h2, h3 {
+  font-family: 'Noto Sans HK', sans-serif;
+}
+
+h1 {
+  padding-bottom: 1em;
+}
+
+h2 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+strong {
+  color: #333;
+}
+
+.nav-link {
+  font-size: 125%;
+  font-family: 'Open Sans', sans-serif;
+}
+.round-img {
+  border-radius: 50%;
+}
+
+
+.IntroCol {
+  padding: 200px 80px;
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+.CoverCol {
+  background-image: url("https://picsum.photos/id/20/1000/800");
+  background-size: cover;
+}
+
+.BrandName {
+  font-size: 150%;
+  color: #000033;
+}
+
+.MajorText {
+    padding: 4em 2em;
+    margin: 0 auto;
+    max-width: 50em;
+}
+
+.btn {
+  margin: 1em;
+}
+
+.DarkSection {
+  background-color: #000033;
+}
+
+.BlueText {
+    color: #000033;
+}
+
+.YellowText {
+  color: #F0A500;
+}
+.btn-outline-warning {
+  color: #F0A500;
+}
+.btn-outline-warning:hover {
+  background-color: #F0A500;
+}
+
+.btn-outline-dark:hover {
+  background-color: #000033;
+}
