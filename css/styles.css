@@ -9,8 +9,8 @@ strong {
   font-family: 'Roboto Slab', serif;
 }
 h1, h2, h3 {
-  font-family: 'Noto Sans HK', sans-serif;
-}
+  font-family: 'Cabin', sans-serif;
+}s
 
 h1 {
   padding-bottom: 1em;
@@ -23,6 +23,13 @@ h2 {
 
 strong {
   color: #333;
+}
+
+
+.equal {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
 }
 
 .nav-link {
@@ -80,4 +87,9 @@ strong {
 
 .btn-outline-dark:hover {
   background-color: #000033;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
 }
